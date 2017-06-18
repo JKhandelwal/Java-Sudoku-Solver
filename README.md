@@ -25,5 +25,5 @@ The solver can in theory work on any size of sudokus, however after a point it m
 
 Running Instructions
 
-To run the program, in the src Directory, run 'java solver', and then either manually enter in the formats as described above,
-or to run automatically, edit one of the testfiles, or make a new one of the same format, and run 'java solver < ../Testfiles/[NAME OF FILE TO RUN]'
+To run the program, in the src Directory, run 'java solver', and then either manually enter the sudoku in, in the format as described above,
+or to run automatically, edit one of the testfiles, or make a new one of the same format, and run 'java solver < ../Testfiles/[NAME OF FILE TO RUN]'.
