@@ -4,7 +4,7 @@ import java.io.InputStreamReader;
 /**
  * Created by jalajkhandelwal on 01/06/2017.
  */
-public class Java {
+public class Solver {
     private static int squared = 0;
     private static int num = 0;
     private static int no_of_solutions_found = 0;
