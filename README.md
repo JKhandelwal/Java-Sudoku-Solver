@@ -3,17 +3,17 @@ A sudoku solver written in Java, it takes in a sudoku box size, and then the sud
 
 The format to enter as follows, e.g. for a sudoku with box size of 2:
 
-2 [Hit-Enter]
-0  2  3  4 [Hit-Enter]
-3  4  1  2 [Hit-Enter]
-4  0  2  1 [Hit-Enter]
-2  0  4  0 [Hit-Enter]
+2 [Hit-Enter] <br/>
+0  2  3  4 [Hit-Enter] <br/>
+3  4  1  2 [Hit-Enter] <br/>
+4  0  2  1 [Hit-Enter] <br/>
+2  0  4  0 [Hit-Enter] <br/>
 
 Which will output the following result:
-1  2  3  4__
-3  4  1  2__
-4  3  2  1__
-2  1  4  3__
+1  2  3  4 <br/>
+3  4  1  2 <br/>
+4  3  2  1 <br/>
+2  1  4  3 <br/>
 
 
 The approach used is a variation on the brute force method, which tries entering a number, from 1 through the Box Size * Box Size, in each empty cell, denoted by the '0' in the sudoku, and checks to see if the number entered is valid, if so it tries entering the numbers from 1 through the Box Size * Box Size in the next empty cell, and so on. If it finds that no number will satisfy the sudoku, it backtracks to the last cell filled, and tries the next number along from 1 to Box Size * Box Size, until each combination has been tried, and no solution has been found, multiple solutions exist, or a singular solution has been found. 
