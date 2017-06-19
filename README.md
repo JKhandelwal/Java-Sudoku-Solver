@@ -21,3 +21,9 @@ The approach used is a variation on the brute force method, which tries entering
 With regards to efficiency, due to the fact that it is brute force, the algorithm will work well on nearly completed sodokus, or sudokus where a string of cells can be filled in from a small number of options. 
 
 The solver can in theory work on any size of sudokus, however after a point it may start to become inefficient.
+
+
+Running Instructions
+
+To run the program, in the src Directory, run 'java solver', and then either manually enter the sudoku in, in the format as described above,
+or to run automatically, edit one of the testfiles, or make a new one of the same format, and run 'java solver < ../Testfiles/[NAME OF FILE TO RUN]'.
