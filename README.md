@@ -3,11 +3,11 @@ A sudoku solver written in Java, it takes in a sudoku box size, and then the sud
 
 The format to enter as follows, e.g. for a sudoku with box size of 2:
 
-2 [Hit-Enter] <br/>
-0  2  3  4 [Hit-Enter] <br/>
-3  4  1  2 [Hit-Enter] <br/>
-4  0  2  1 [Hit-Enter] <br/>
-2  0  4  0 [Hit-Enter] <br/>
+2 [Enter] <br/>
+0  2  3  4 [Enter] <br/>
+3  4  1  2 [Enter] <br/>
+4  0  2  1 [Enter] <br/>
+2  0  4  0 [Enter] <br/>
 
 Which will output the following result:
 1  2  3  4 <br/>
